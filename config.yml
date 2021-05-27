@@ -1,0 +1,43 @@
+tools:
+   blacklist:
+   - BOWL
+   settings:
+      default:
+         levels:
+            max: 20
+            max-exp: 20000
+         enchantements:
+            sharpness:
+               min-lvl: 0
+               max-lvl: 5
+            protection:
+               min-lvl: 0
+               max-lvl: 5
+            unbreaking:
+               min-lvl: 0
+               max-lvl: 10
+         item:
+            displayname: '%smart-color%%item-displayname%'
+            lores:
+            - ''
+            - '      &e&lItem Leveling'
+            - '      &7%require-exp% XP to level %next-lvl%%xp-line%'
+            - ''
+            - '      &c&lGems'
+            - '      &b%gems-displayname%%repeat-gems%'
+            - ''
+            - '&9Enchantements'
+            - '  &6▪ &e%enchant-displayname% &6%enchant-level%%repeat-enchantements%'
+            - ''
+            - '&7&o(( Put in an enchantment'
+            - '&7&o table to view all details ))'
+            
+messages:
+   max-level-reached: '      &7Max level reached'
+
+smart-colors:
+   stone: GRAY
+   iron: WHITE
+   golden: GOLD
+   diamond: AQUA
+   netherite: DARK_GRAY

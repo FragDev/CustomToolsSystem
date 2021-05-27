@@ -1,0 +1,14 @@
+name: CustomToolsSystem
+version: 1.0.0
+api-version: 1.16
+description: CustomTools plugin
+author: Fragment
+
+main: me.fragment.customtools.CustomTools
+database: false
+depend: []
+softdepend: []
+
+commands:
+
+permissions:
